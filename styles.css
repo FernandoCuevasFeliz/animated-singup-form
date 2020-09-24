@@ -1,0 +1,79 @@
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+  background-image: linear-gradient(326deg, #fff 0%, #34495e 74%);
+}
+
+.container-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-signup {
+  width: 800px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0984e3;
+  position: relative;
+}
+
+.form-signup .square {
+  width: 50%;
+}
+
+.form-signup .square:nth-child(1) {
+  padding: 10px 20px;
+}
+
+.form-signup .square .form-img {
+  display: block;
+  width: 100%;
+}
+
+.form-signup .square .form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-signup .square .form__control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+.form-signup .square .btn-form {
+  border: 1px solid #74b9ff;
+  padding: 10px 15px;
+  background-color: #0984e3;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.form-signup .square .form-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
